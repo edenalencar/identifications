@@ -45,13 +45,13 @@ _Get from Flathub_
   
   Clone the repository and change to the project directory
   
-    ```git clone git@github.com:edenalencar/identifications.git
-    cd identifications```
+    git clone git@github.com:edenalencar/identifications.git
+    cd identifications
     
   Run meson build to configure the build environment. Change to the build directory and run ninja to build
     
-    ```meson build --prefix=/usr
+    meson build --prefix=/usr
     cd build
-    meson compile```
+    meson compile
   
  
