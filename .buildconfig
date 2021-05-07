@@ -1,0 +1,10 @@
+[default]
+name=Default
+runtime=host
+toolchain=default
+config-opts=
+run-opts=
+prefix=/home/edenalencar/Projetos/identificatios/build
+app-id=
+postbuild=
+prebuild=

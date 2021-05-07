@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+	<id>com.github.edenalencar.identifications.desktop</id>
+	<metadata_license>CC0-1.0</metadata_license>
+	<project_license>GPL-3.0-or-later</project_license>
+	<developer_name>Éden Alencar</developer_name>
+  <url type="homepage">https://github.com/edenalencar/identifications</url>
+  <url type="bugtracker">https://github.com/edenalencar/identifications/issues</url>
+  <launchable type="desktop-id">com.github.edenalencar.identifications.desktop</launchable>
+  <translation type="gettext">com.github.edenalencar.identifications</translation>
+
+  <name>Identifications</name>
+  <summary>It is a tool for the QA team and developers</summary>
+	<description>
+	  <p>
+	     Identifications help QA teams and developers that needed identifications used in Brazil as CPF, CNPJ and IE to test websites or system.
+	  </p>
+	</description>
+
+  <screenshots>
+    <screenshot type="default">
+      <image width="469" height="629">https://user-images.githubusercontent.com/7075481/116934335-3c523300-ac3b-11eb-84be-4612b966785b.png</image>
+      <caption>CPF</caption>
+    </screenshot>
+    <screenshot type="default">
+      <image width="469" height="629">https://user-images.githubusercontent.com/7075481/116934405-55f37a80-ac3b-11eb-8fa2-09387d4b0be8.png</image>
+      <caption>CNPJ</caption>
+    </screenshot>
+    <screenshot type="default">
+      <image width="469" height="629">https://user-images.githubusercontent.com/7075481/116934413-5855d480-ac3b-11eb-90af-f48728bddbb3.png</image>
+      <caption>Incrição Estadual</caption>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <release version="0.1.0" date="2021-05-25">
+      <description>
+        <p>Release Identification 0.1.0 brings</p>
+        <ul>
+          <li>Generate CPF with or without format</li>
+          <li>Generate CPNJ even with branchs</li>
+          <li>Generate IE with or without format</li>
+          <li>Copy all idenfications generated to clipboard</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+  <content_rating type="oars-1.1" />
+</component>
