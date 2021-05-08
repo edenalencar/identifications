@@ -15,14 +15,22 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-
+using Identifications;
 int main (string[] args) {
-	var app = new Gtk.Application ("com.github.edenalencar.identifications", ApplicationFlags.FLAGS_NONE);
+
+    Intl.setlocale (LocaleCategory.ALL, "");
+    string langpack_dir = Path.build_filename (Constants.APP_INSTALL_PREFIX, "share", "locale");
+    Intl.bindtextdomain (Constants.APP_ID, langpack_dir);
+    Intl.bind_textdomain_codeset (Constants.APP_ID, "UTF-8");
+    Intl.textdomain (Constants.APP_ID);
+
+	var app = new Gtk.Application (Constants.APP_ID, ApplicationFlags.FLAGS_NONE);
 	app.activate.connect (() => {
 		var win = app.active_window;
 		if (win == null) {
 			win = new Identifications.Window (app);
 		}
+		new MenuApplication(app);
 		win.present ();
 	});
 

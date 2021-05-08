@@ -16,13 +16,13 @@ namespace Identifications{
             dialog.set_transient_for (window);
             dialog.set_modal (true);
             dialog.logo_icon_name = Constants.APP_ID;
-            dialog.program_name = _("Identificacoes");
+            dialog.program_name = _("Identifications");
             dialog.comments = _("Tools to devs and QA Team test applications that needing identifications from Brazil");
             dialog.authors = { "Éden Alencar" };
             dialog.artists = {"Fabiana Alencar"};
             dialog.license_type = Gtk.License.GPL_3_0;
-            dialog.website = "https://dialogandoti.com.br";
-            dialog.website_label = _("Official WebPage");
+            dialog.website = "https://github.com/edenalencar/identifications";
+            dialog.website_label = _("Site");
             dialog.translator_credits = "Éden Alencar - Brazilian Portuguese";
 
             dialog.run ();
