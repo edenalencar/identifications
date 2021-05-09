@@ -34,5 +34,11 @@
                 }
             ]
         }
-    ]
+    ],
+    "build-options" : {
+        "env" : {
+            "GTK_DEBUG" : "interactive",
+            "LC_ALL" : "pt_BR.utf8"
+        }
+    }
 }

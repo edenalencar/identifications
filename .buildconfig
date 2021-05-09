@@ -4,7 +4,11 @@ runtime=host
 toolchain=default
 config-opts=
 run-opts=
-prefix=/home/edenalencar/Projetos/identificatios/build
+prefix=/home/edenalencar/Projetos/identifications/build
 app-id=
 postbuild=
 prebuild=
+
+[default.environment]
+LC_ALL=pt_BR.utf8
+GTK_DEBUG=interactive

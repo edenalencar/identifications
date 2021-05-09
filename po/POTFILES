@@ -1,7 +1,8 @@
 data/com.github.edenalencar.identifications.desktop.in
 data/com.github.edenalencar.identifications.appdata.xml.in
 data/com.github.edenalencar.identifications.gschema.xml
-src/window.ui
-src/main.vala
-src/window.vala
-
+src/ui/window.ui
+src/ui/menu.ui
+src/classes/view/main.vala
+src/classes/view/window.vala
+src/classes/view/menu.vala

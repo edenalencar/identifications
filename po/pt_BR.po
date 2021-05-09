@@ -1,0 +1,166 @@
+# Portuguese translations for com.github.edenalencar.identifications package
+# Traduções em português brasileiro para o pacote com.github.edenalencar.identifications.
+# Copyright (C) 2021 THE com.github.edenalencar.identifications'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.edenalencar.identifications package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.edenalencar.identifications\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-09 02:42-0300\n"
+"PO-Revision-Date: 2021-05-09 02:26-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: data/com.github.edenalencar.identifications.desktop.in:3
+msgid "identifications"
+msgstr "identificações"
+
+#: data/com.github.edenalencar.identifications.desktop.in:9
+msgid "utility;identifications"
+msgstr "utilitário;identificações"
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:6
+msgid "Éden Alencar"
+msgstr ""
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:12
+#: src/classes/view/menu.vala:19
+msgid "Identifications"
+msgstr "Identificações"
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:13
+msgid "It is a tool for the QA team and developers"
+msgstr "É uma ferramenta para a equipe de QA e desenvolvedores"
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:15
+msgid ""
+"Identifications help QA teams and developers that needed identifications "
+"used in Brazil as CPF, CNPJ and IE to test websites or system."
+msgstr ""
+"As identificações ajudam as equipes de controle de qualidade e "
+"desenvolvedores que precisavam de identificações usado no Brasil como CPF, "
+"CNPJ e IE para testar sites ou sistema."
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:23
+msgid "CPF"
+msgstr ""
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:27
+msgid "CNPJ"
+msgstr ""
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:31
+msgid "Incrição Estadual"
+msgstr ""
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:38
+msgid "Release Identification 0.1.0 brings"
+msgstr "Identificação de versão 0.1.0 traz"
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:40
+msgid "Generate CPF with or without format"
+msgstr "Gerar CPF com ou sem formato"
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:41
+msgid "Generate CPNJ even with branchs"
+msgstr "Gerar CNPJ mesmo com filiais"
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:42
+msgid "Generate IE with or without format"
+msgstr "Gerar IE com ou sem formato"
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:43
+msgid "Copy all idenfications generated to clipboard"
+msgstr "Copie todas as identificações geradas para a área de transferência"
+
+#: data/com.github.edenalencar.identifications.gschema.xml:6
+msgid "Pull interval"
+msgstr "Intervalo de puxar"
+
+#: data/com.github.edenalencar.identifications.gschema.xml:7
+msgid "Pull data every X seconds."
+msgstr "Extraia dados a cada X segundos."
+
+#: data/com.github.edenalencar.identifications.gschema.xml:11
+msgid "Use dark GTK+ theme"
+msgstr "Use um tema GTK + escuro"
+
+#: data/com.github.edenalencar.identifications.gschema.xml:12
+msgid ""
+"Use the dark variant of your GTK+ theme. Please note that not every GTK+ "
+"theme has a dark variant."
+msgstr ""
+"Use a variante escura do seu tema GTK +. Observe que nem todo GTK +o tema "
+"tem uma variante escura."
+
+#: data/com.github.edenalencar.identifications.gschema.xml:16
+msgid "Window width"
+msgstr "Largura da janela"
+
+#: data/com.github.edenalencar.identifications.gschema.xml:17
+msgid "Remember the window width."
+msgstr "Lembre-se da largura da janela."
+
+#: data/com.github.edenalencar.identifications.gschema.xml:21
+msgid "Window height"
+msgstr "Altura da janela"
+
+#: data/com.github.edenalencar.identifications.gschema.xml:22
+msgid "Remember the window height."
+msgstr "Lembre-se da altura da janela."
+
+#: src/ui/window.ui:160 src/ui/window.ui:304 src/ui/window.ui:496
+msgid "Amount:"
+msgstr "Quantidade:"
+
+#: src/ui/window.ui:172 src/ui/window.ui:187 src/ui/window.ui:330
+#: src/ui/window.ui:522
+msgid "Generate records with points and hinfens"
+msgstr "Gere registros com pontos e hifens"
+
+#: src/ui/window.ui:183 src/ui/window.ui:326 src/ui/window.ui:518
+msgid "Formatted"
+msgstr "Formatado"
+
+#: src/ui/window.ui:207 src/ui/window.ui:364 src/ui/window.ui:541
+msgid "To generate"
+msgstr "Gerar"
+
+#: src/ui/window.ui:342
+msgid "Branches"
+msgstr "Filiais"
+
+#: src/ui/window.ui:462
+msgid "State:"
+msgstr "Estado:"
+
+#: src/ui/window.ui:474
+msgid "Select a state"
+msgstr "Selecione um estado"
+
+#: src/ui/window.ui:607
+msgid "If checked generates CNPJ and its branches"
+msgstr "Se marcado gerar CPNJ e suas filiais"
+
+#: src/ui/menu.ui:6
+msgid "About"
+msgstr "Sobre"
+
+#: src/classes/view/menu.vala:20
+msgid ""
+"Tools to devs and QA Team test applications that needing identifications "
+"from Brazil"
+msgstr ""
+"Ferramentas para desenvolvedores e aplicativos de teste da equipe de "
+"controle de qualidade que precisam de identificações do Brasil"
+
+#: src/classes/view/menu.vala:25
+msgid "Site"
+msgstr ""
