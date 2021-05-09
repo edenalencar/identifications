@@ -77,12 +77,11 @@ namespace Identifications {
 			clipboard = Clipboard.get_for_display(app.get_active_window().get_display(),Gdk.SELECTION_CLIPBOARD);
 		}
 
-        //TODO Adicionar CPF na fabrica de identificaçõe
 		[GtkCallback]
 		public void generate_cpf(){
 		    var builder = new StringBuilder();
 		    for(int i = 0; i < spinbuttom_amount.get_value(); i++){
-		        var identification_cpf = new IdentificationCPF();
+		        var identification_cpf = IdentificationIeFactory.get_instance().get_identification(Constants.CPF);
 
                 if(checkbox_formmated.active){
                     builder.append(identification_cpf.get_identification_formmated()+"\n");
@@ -96,7 +95,6 @@ namespace Identifications {
 		    result_cpf.set_buffer(textbuffer_result_cpf);
 		}
 
-        //TODO Adicionar CNPJ na fabrica de identificaçõe
 		[GtkCallback]
 		public void generate_cnpj(){
 
@@ -104,7 +102,7 @@ namespace Identifications {
             Gee.List<Identification> identification_cnpj = new ArrayList<Identification>();
 
             if(checkbox_branches_cnpj.active){
-                var headquarters = new IdentificationCNPJ();
+                var headquarters = IdentificationIeFactory.get_instance().get_identification(Constants.CNPJ);
                 identification_cnpj.add(headquarters);
 
                 for(int i = 1; i < spingbuttom_amount_cnpj.get_value(); i++){
@@ -134,7 +132,7 @@ namespace Identifications {
             result_cnpj.set_buffer(textbuffer_result_cnpj);
 		}
 
-        //FIXME Corrigir seleção das UFs
+
 		[GtkCallback]
 		public void generate_ie(){
             var builder = new StringBuilder();
@@ -145,7 +143,7 @@ namespace Identifications {
             comboBox_states.get_model().get_value(tree, 0, out value);
 
             for(int i = 0; i < spingbuttom_amount_ie.get_value(); i++){
-                var identification_ie = IdentificationIeFactory.get_instance().get_identification(value.get_string());
+                var identification_ie = IdentificationIeFactory.get_instance().get_identification("IE-".concat(value.get_string()));
                 if(checkbox_formmated_ie.active){
                     builder.append(identification_ie.get_identification_formmated()+"\n");
                 }else{
@@ -157,7 +155,6 @@ namespace Identifications {
 		    result_ie.set_buffer(textbuffer_result_ie);
 		}
 
-
 		[GtkCallback]
 		public void copy_to_clipboard(Gtk.Button button){
             if(button.get_name() == "buttom_copy_cpf"){
@@ -168,5 +165,5 @@ namespace Identifications {
 		        clipboard.set_text (textbuffer_result_ie.text, -1);
 	    	}
 	    }
-  }
+    }
 }

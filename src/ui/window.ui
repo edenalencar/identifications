@@ -2,7 +2,17 @@
 <!-- Generated with glade 3.38.2 -->
 <interface>
   <requires lib="gtk+" version="3.24"/>
-  <object class="GtkAdjustment" id="adjustment1">
+  <object class="GtkAdjustment" id="adjustment_cnpj">
+    <property name="upper">100</property>
+    <property name="step-increment">1</property>
+    <property name="page-increment">10</property>
+  </object>
+  <object class="GtkAdjustment" id="adjustment_cpf">
+    <property name="upper">100</property>
+    <property name="step-increment">1</property>
+    <property name="page-increment">10</property>
+  </object>
+  <object class="GtkAdjustment" id="adjustment_ie">
     <property name="upper">100</property>
     <property name="step-increment">1</property>
     <property name="page-increment">10</property>
@@ -170,7 +180,7 @@
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="tooltip-text" translatable="yes">Generate records with points and hinfens</property>
-                    <property name="adjustment">adjustment1</property>
+                    <property name="adjustment">adjustment_cpf</property>
                   </object>
                   <packing>
                     <property name="expand">False</property>
@@ -313,7 +323,7 @@
                   <object class="GtkSpinButton" id="spingbuttom_amount_cnpj">
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
-                    <property name="adjustment">adjustment1</property>
+                    <property name="adjustment">adjustment_cnpj</property>
                   </object>
                   <packing>
                     <property name="expand">False</property>
@@ -505,7 +515,7 @@
                   <object class="GtkSpinButton" id="spingbuttom_amount_ie">
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
-                    <property name="adjustment">adjustment1</property>
+                    <property name="adjustment">adjustment_ie</property>
                   </object>
                   <packing>
                     <property name="expand">False</property>
