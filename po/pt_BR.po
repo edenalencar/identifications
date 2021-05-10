@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.edenalencar.identifications\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-09 02:42-0300\n"
+"POT-Creation-Date: 2021-05-09 20:24-0300\n"
 "PO-Revision-Date: 2021-05-09 02:26-0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -19,8 +19,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: data/com.github.edenalencar.identifications.desktop.in:3
-msgid "identifications"
-msgstr "identificações"
+#: data/com.github.edenalencar.identifications.appdata.xml.in:12
+#: src/classes/view/menu.vala:19
+msgid "Identifications"
+msgstr "Identificações"
 
 #: data/com.github.edenalencar.identifications.desktop.in:9
 msgid "utility;identifications"
@@ -29,11 +31,6 @@ msgstr "utilitário;identificações"
 #: data/com.github.edenalencar.identifications.appdata.xml.in:6
 msgid "Éden Alencar"
 msgstr ""
-
-#: data/com.github.edenalencar.identifications.appdata.xml.in:12
-#: src/classes/view/menu.vala:19
-msgid "Identifications"
-msgstr "Identificações"
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:13
 msgid "It is a tool for the QA team and developers"
@@ -116,36 +113,36 @@ msgstr "Altura da janela"
 msgid "Remember the window height."
 msgstr "Lembre-se da altura da janela."
 
-#: src/ui/window.ui:160 src/ui/window.ui:304 src/ui/window.ui:496
+#: src/ui/window.ui:170 src/ui/window.ui:314 src/ui/window.ui:506
 msgid "Amount:"
 msgstr "Quantidade:"
 
-#: src/ui/window.ui:172 src/ui/window.ui:187 src/ui/window.ui:330
-#: src/ui/window.ui:522
+#: src/ui/window.ui:182 src/ui/window.ui:197 src/ui/window.ui:340
+#: src/ui/window.ui:532
 msgid "Generate records with points and hinfens"
 msgstr "Gere registros com pontos e hifens"
 
-#: src/ui/window.ui:183 src/ui/window.ui:326 src/ui/window.ui:518
+#: src/ui/window.ui:193 src/ui/window.ui:336 src/ui/window.ui:528
 msgid "Formatted"
 msgstr "Formatado"
 
-#: src/ui/window.ui:207 src/ui/window.ui:364 src/ui/window.ui:541
+#: src/ui/window.ui:217 src/ui/window.ui:374 src/ui/window.ui:551
 msgid "To generate"
 msgstr "Gerar"
 
-#: src/ui/window.ui:342
+#: src/ui/window.ui:352
 msgid "Branches"
 msgstr "Filiais"
 
-#: src/ui/window.ui:462
+#: src/ui/window.ui:472
 msgid "State:"
 msgstr "Estado:"
 
-#: src/ui/window.ui:474
+#: src/ui/window.ui:484
 msgid "Select a state"
 msgstr "Selecione um estado"
 
-#: src/ui/window.ui:607
+#: src/ui/window.ui:617
 msgid "If checked generates CNPJ and its branches"
 msgstr "Se marcado gerar CPNJ e suas filiais"
 
@@ -164,3 +161,6 @@ msgstr ""
 #: src/classes/view/menu.vala:25
 msgid "Site"
 msgstr ""
+
+#~ msgid "identifications"
+#~ msgstr "identificações"

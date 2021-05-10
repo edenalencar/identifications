@@ -5,7 +5,7 @@ project('com.github.edenalencar.identifications', ['c', 'vala'],
                    ],
 )
 
-app_binary = 'identifications'
+app_binary = 'Identifications'
 app_id = meson.project_name()
 app_install_prefix = get_option('prefix')
 

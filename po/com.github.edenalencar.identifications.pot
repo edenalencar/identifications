@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.edenalencar.identifications\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-09 02:42-0300\n"
+"POT-Creation-Date: 2021-05-09 20:24-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: data/com.github.edenalencar.identifications.desktop.in:3
-msgid "identifications"
+#: data/com.github.edenalencar.identifications.appdata.xml.in:12
+#: src/classes/view/menu.vala:19
+msgid "Identifications"
 msgstr ""
 
 #: data/com.github.edenalencar.identifications.desktop.in:9
@@ -27,11 +29,6 @@ msgstr ""
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:6
 msgid "Éden Alencar"
-msgstr ""
-
-#: data/com.github.edenalencar.identifications.appdata.xml.in:12
-#: src/classes/view/menu.vala:19
-msgid "Identifications"
 msgstr ""
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:13
@@ -110,36 +107,36 @@ msgstr ""
 msgid "Remember the window height."
 msgstr ""
 
-#: src/ui/window.ui:160 src/ui/window.ui:304 src/ui/window.ui:496
+#: src/ui/window.ui:170 src/ui/window.ui:314 src/ui/window.ui:506
 msgid "Amount:"
 msgstr ""
 
-#: src/ui/window.ui:172 src/ui/window.ui:187 src/ui/window.ui:330
-#: src/ui/window.ui:522
+#: src/ui/window.ui:182 src/ui/window.ui:197 src/ui/window.ui:340
+#: src/ui/window.ui:532
 msgid "Generate records with points and hinfens"
 msgstr ""
 
-#: src/ui/window.ui:183 src/ui/window.ui:326 src/ui/window.ui:518
+#: src/ui/window.ui:193 src/ui/window.ui:336 src/ui/window.ui:528
 msgid "Formatted"
 msgstr ""
 
-#: src/ui/window.ui:207 src/ui/window.ui:364 src/ui/window.ui:541
+#: src/ui/window.ui:217 src/ui/window.ui:374 src/ui/window.ui:551
 msgid "To generate"
 msgstr ""
 
-#: src/ui/window.ui:342
+#: src/ui/window.ui:352
 msgid "Branches"
 msgstr ""
 
-#: src/ui/window.ui:462
+#: src/ui/window.ui:472
 msgid "State:"
 msgstr ""
 
-#: src/ui/window.ui:474
+#: src/ui/window.ui:484
 msgid "Select a state"
 msgstr ""
 
-#: src/ui/window.ui:607
+#: src/ui/window.ui:617
 msgid "If checked generates CNPJ and its branches"
 msgstr ""
 

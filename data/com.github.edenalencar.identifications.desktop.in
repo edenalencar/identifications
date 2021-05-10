@@ -1,7 +1,6 @@
 [Desktop Entry]
-Name=identifications
+Name=Identifications
 Exec=identifications
-Icon=com.github.edenalencar.identifications
 Terminal=false
 Type=Application
 Categories=GNOME;GTK;Utility
