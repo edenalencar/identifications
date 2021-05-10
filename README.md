@@ -1,5 +1,4 @@
-
-![br com dialogandoti identificacoes](https://user-images.githubusercontent.com/7075481/116942489-12533d80-ac48-11eb-9cc0-5d4e282e8077.png)
+![icone](https://user-images.githubusercontent.com/7075481/117592396-b9cfe480-b10e-11eb-9e74-f039b1b5a100.png)
 
 
 # Identifications
@@ -14,7 +13,7 @@ It is a tool for the QA team and developers who needed identifications used in B
 # Features
 * Generate CPF with or without format
 * Generate CPNJ with branchs and with or without format
-* Generate IE with or without formar
+* Generate IE with or without format
 * Copy all idenfications generated to clipboard
 
 # Instalation
