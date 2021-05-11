@@ -5,9 +5,9 @@
 It is a tool for the QA team and developers who needed identifications used in Brazil as CPF, CNPJ and IE to test.
 
 # Screenshots
-![CPF](https://user-images.githubusercontent.com/7075481/116934335-3c523300-ac3b-11eb-84be-4612b966785b.png)
-![CNPJ com filias](https://user-images.githubusercontent.com/7075481/116934405-55f37a80-ac3b-11eb-8fa2-09387d4b0be8.png)
-![IE](https://user-images.githubusercontent.com/7075481/116934413-5855d480-ac3b-11eb-90af-f48728bddbb3.png)
+![CPF](data/screenshots/CPF.png)
+![CNPJ com filias](data/screenshots/CNPJ_Branches.png)
+![IE](data/screenshots/IE.png)
 
 
 # Features
