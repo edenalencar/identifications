@@ -30,15 +30,9 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "file:///home/edenalencar/Projetos/identifications"
+                    "url" : "git@github.com:edenalencar/identifications.git"
                 }
             ]
         }
-    ],
-    "build-options" : {
-        "env" : {
-            "GTK_DEBUG" : "interactive",
-            "LC_ALL" : "pt_BR.utf8"
-        }
-    }
+    ]
 }
