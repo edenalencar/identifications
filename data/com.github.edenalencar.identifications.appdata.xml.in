@@ -38,7 +38,7 @@
         <p>Release Identification 0.1.0 brings</p>
         <ul>
           <li>Generate CPF with or without format</li>
-          <li>Generate CPNJ even with branchs</li>
+          <li>Generate CNPJ including branches</li>
           <li>Generate IE with or without format</li>
           <li>Copy all idenfications generated to clipboard</li>
         </ul>

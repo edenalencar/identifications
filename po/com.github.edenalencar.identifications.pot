@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.edenalencar.identifications\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-09 20:24-0300\n"
+"POT-Creation-Date: 2021-05-10 20:46-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,8 +23,8 @@ msgstr ""
 msgid "Identifications"
 msgstr ""
 
-#: data/com.github.edenalencar.identifications.desktop.in:9
-msgid "utility;identifications"
+#: data/com.github.edenalencar.identifications.desktop.in:8
+msgid "utility;identifications;work"
 msgstr ""
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:6
@@ -62,7 +62,7 @@ msgid "Generate CPF with or without format"
 msgstr ""
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:41
-msgid "Generate CPNJ even with branchs"
+msgid "Generate CNPJ including branches"
 msgstr ""
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:42
@@ -111,8 +111,7 @@ msgstr ""
 msgid "Amount:"
 msgstr ""
 
-#: src/ui/window.ui:182 src/ui/window.ui:197 src/ui/window.ui:340
-#: src/ui/window.ui:532
+#: src/ui/window.ui:182
 msgid "Generate records with points and hinfens"
 msgstr ""
 
@@ -120,8 +119,12 @@ msgstr ""
 msgid "Formatted"
 msgstr ""
 
+#: src/ui/window.ui:197 src/ui/window.ui:340 src/ui/window.ui:532
+msgid "Generate records with points and hifens. With ID's pattern."
+msgstr ""
+
 #: src/ui/window.ui:217 src/ui/window.ui:374 src/ui/window.ui:551
-msgid "To generate"
+msgid "Generate"
 msgstr ""
 
 #: src/ui/window.ui:352

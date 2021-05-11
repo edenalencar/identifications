@@ -194,7 +194,7 @@
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">False</property>
-                    <property name="tooltip-text" translatable="yes">Generate records with points and hinfens</property>
+                    <property name="tooltip-text" translatable="yes">Generate records with points and hifens. With ID's pattern.</property>
                     <property name="halign">start</property>
                     <property name="valign">start</property>
                     <property name="draw-indicator">True</property>
@@ -214,7 +214,7 @@
                     <property name="layout-style">start</property>
                     <child>
                       <object class="GtkButton">
-                        <property name="label" translatable="yes">To generate</property>
+                        <property name="label" translatable="yes">Generate</property>
                         <property name="visible">True</property>
                         <property name="can-focus">True</property>
                         <property name="receives-default">True</property>
@@ -337,7 +337,7 @@
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">False</property>
-                    <property name="tooltip-text" translatable="yes">Generate records with points and hinfens</property>
+                    <property name="tooltip-text" translatable="yes">Generate records with points and hifens. With ID's pattern.</property>
                     <property name="halign">start</property>
                     <property name="draw-indicator">True</property>
                   </object>
@@ -371,7 +371,7 @@
                     <property name="layout-style">start</property>
                     <child>
                       <object class="GtkButton" id="buttom_generate_cnpj">
-                        <property name="label" translatable="yes">To generate</property>
+                        <property name="label" translatable="yes">Generate</property>
                         <property name="visible">True</property>
                         <property name="can-focus">True</property>
                         <property name="receives-default">True</property>
@@ -529,7 +529,7 @@
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">False</property>
-                    <property name="tooltip-text" translatable="yes">Generate records with points and hinfens</property>
+                    <property name="tooltip-text" translatable="yes">Generate records with points and hifens. With ID's pattern.</property>
                     <property name="halign">start</property>
                     <property name="draw-indicator">True</property>
                   </object>
@@ -547,8 +547,8 @@
                     <property name="spacing">10</property>
                     <property name="layout-style">start</property>
                     <child>
-                      <object class="GtkButton">
-                        <property name="label" translatable="yes">To generate</property>
+                      <object class="GtkButton" id="buttom_generate_ie">
+                        <property name="label" translatable="yes">Generate</property>
                         <property name="visible">True</property>
                         <property name="can-focus">True</property>
                         <property name="receives-default">True</property>
@@ -610,7 +610,7 @@
         <property name="spacing">0</property>
         <property name="show-close-button">True</property>
         <child type="title">
-          <object class="GtkStackSwitcher">
+          <object class="GtkStackSwitcher" id="buttom_generate_cpf">
             <property name="visible">True</property>
             <property name="can-focus">False</property>
             <property name="receives-default">True</property>

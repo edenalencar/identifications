@@ -4,6 +4,6 @@ Exec=identifications
 Terminal=false
 Type=Application
 Categories=GNOME;GTK;Utility
-Keywords=utility;identifications
+Keywords=utility;identifications;work
 StartupNotify=true
 Icon=com.github.edenalencar.identifications

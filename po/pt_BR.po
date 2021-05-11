@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.edenalencar.identifications\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-09 20:24-0300\n"
-"PO-Revision-Date: 2021-05-09 02:26-0300\n"
+"POT-Creation-Date: 2021-05-10 20:46-0300\n"
+"PO-Revision-Date: 2021-05-10 20:46-0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: pt_BR\n"
@@ -24,9 +24,9 @@ msgstr ""
 msgid "Identifications"
 msgstr "Identificações"
 
-#: data/com.github.edenalencar.identifications.desktop.in:9
-msgid "utility;identifications"
-msgstr "utilitário;identificações"
+#: data/com.github.edenalencar.identifications.desktop.in:8
+msgid "utility;identifications;work"
+msgstr "utilitário;identificações;trabalho"
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:6
 msgid "Éden Alencar"
@@ -42,7 +42,7 @@ msgid ""
 "used in Brazil as CPF, CNPJ and IE to test websites or system."
 msgstr ""
 "As identificações ajudam as equipes de controle de qualidade e "
-"desenvolvedores que precisavam de identificações usado no Brasil como CPF, "
+"desenvolvedores que precisavam de identificações usadas no Brasil como CPF, "
 "CNPJ e IE para testar sites ou sistema."
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:23
@@ -66,8 +66,9 @@ msgid "Generate CPF with or without format"
 msgstr "Gerar CPF com ou sem formato"
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:41
-msgid "Generate CPNJ even with branchs"
-msgstr "Gerar CNPJ mesmo com filiais"
+#, fuzzy
+msgid "Generate CNPJ including branches"
+msgstr "Gerar CNPJ incluindo filiais"
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:42
 msgid "Generate IE with or without format"
@@ -117,8 +118,7 @@ msgstr "Lembre-se da altura da janela."
 msgid "Amount:"
 msgstr "Quantidade:"
 
-#: src/ui/window.ui:182 src/ui/window.ui:197 src/ui/window.ui:340
-#: src/ui/window.ui:532
+#: src/ui/window.ui:182
 msgid "Generate records with points and hinfens"
 msgstr "Gere registros com pontos e hifens"
 
@@ -126,8 +126,12 @@ msgstr "Gere registros com pontos e hifens"
 msgid "Formatted"
 msgstr "Formatado"
 
+#: src/ui/window.ui:197 src/ui/window.ui:340 src/ui/window.ui:532
+msgid "Generate records with points and hifens. With ID's pattern."
+msgstr "Gere registros com pontos e hifens"
+
 #: src/ui/window.ui:217 src/ui/window.ui:374 src/ui/window.ui:551
-msgid "To generate"
+msgid "Generate"
 msgstr "Gerar"
 
 #: src/ui/window.ui:352
@@ -161,6 +165,3 @@ msgstr ""
 #: src/classes/view/menu.vala:25
 msgid "Site"
 msgstr ""
-
-#~ msgid "identifications"
-#~ msgstr "identificações"
