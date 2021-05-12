@@ -30,9 +30,9 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release date="2021-05-11" version="0.1.0">
+    <release date="2021-05-11" version="0.1.2">
       <description>
-        <p>Release Identification 0.1.0 brings</p>
+        <p>Release Identification 0.1.2 brings</p>
         <ul>
           <li>Generate CPF with or without format</li>
           <li>Generate CNPJ including branches</li>
