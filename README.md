@@ -17,18 +17,18 @@ It is a tool for the QA team and developers who needed identifications used in B
 * Copy all idenfications generated to clipboard
 
 # Instalation
-_Get from Flathub_
+<a href='https://flathub.org/apps/details/com.github.edenalencar.identifications'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>
+
 
 # Building from source
----
+
   Option 1: with GNOME Builder
   * Open GNOME Builder
   * Click the Clone Repository button
   * Enter git@github.com:edenalencar/identifications.git in the field Repository URL
   * Click the Clone Project button
   * Click the Run button to start building application
-
-# Building from source
+  
   Option 2: with Meson
   You'll need the following dependencies:
   * gio-2.0
