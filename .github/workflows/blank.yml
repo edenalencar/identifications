@@ -21,8 +21,10 @@ jobs:
     - uses: actions/checkout@v2
     - name: Update repository metadata
       run: sudo apt-get update
-    - name: Install meson and ninja
-      run: sudo apt-get install python3 python3-pip python3-setuptools python3-wheel ninja-build meson
+    - name: Install python
+      run: sudo apt-get install python3 python3-pip python3-setuptools python3-wheel
+    - name: Install meson
+      run: pip3 install --user meson
     - name: Install build essential
       run: sudo apt-get install build-essential valac gettext cmake git appstream-util desktop-file-utils
     - name: Install library headers
