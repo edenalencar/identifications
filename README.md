@@ -1,3 +1,6 @@
+[![Actions Status](https://github.com/edenalencar/identifications/workflows/CI/badge.svg)](https://github.com/edenalencar/identifications/actions)
+
+
 ![icone](https://user-images.githubusercontent.com/7075481/117592396-b9cfe480-b10e-11eb-9e74-f039b1b5a100.png)
 
 
