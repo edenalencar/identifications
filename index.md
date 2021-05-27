@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+![icone](https://user-images.githubusercontent.com/7075481/117592396-b9cfe480-b10e-11eb-9e74-f039b1b5a100.png)
 
-You can use the [editor on GitHub](https://github.com/edenalencar/identifications/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Identifications
+It is a tool for the QA team and developers who needed identifications used in Brazil as CPF, CNPJ and IE to test.
 
-### Markdown
+# Screenshots
+![CPF](https://github.com/edenalencar/identifications/blob/master/data/screenshots/CPF.png)
+![CNPJ com filias](https://github.com/edenalencar/identifications/blob/master/data/screenshots/CNPJ_Branches.png)
+![IE](https://github.com/edenalencar/identifications/blob/master/data/screenshots/IE.png)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+# Features
+* Generate CPF with or without format
+* Generate CPNJ with branchs and with or without format
+* Generate IE with or without format
+* Copy all idenfications generated to clipboard
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/edenalencar/identifications/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# Instalation
+<a href='https://flathub.org/apps/details/com.github.edenalencar.identifications'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>
