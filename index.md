@@ -5,9 +5,9 @@
 It is a tool for the QA team and developers who needed identifications used in Brazil as CPF, CNPJ and IE to test.
 
 # Screenshots
-![CPF](https://github.com/edenalencar/identifications/blob/master/data/screenshots/CPF.png)
-![CNPJ com filias](https://github.com/edenalencar/identifications/blob/master/data/screenshots/CNPJ_Branches.png)
-![IE](https://github.com/edenalencar/identifications/blob/master/data/screenshots/IE.png)
+![CPF](https://github.com/edenalencar/identifications/blob/master/data/screenshots/CPF.png?raw=true)
+![CNPJ com filias](https://github.com/edenalencar/identifications/blob/master/data/screenshots/CNPJ_Branches.png?raw=true)
+![IE](https://github.com/edenalencar/identifications/blob/master/data/screenshots/IE.png?raw=true)
 
 
 # Features
