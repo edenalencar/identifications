@@ -55,5 +55,14 @@ It is a tool for the QA team and developers who needed identifications used in B
     meson build --prefix=/usr
     cd build
     meson compile
-  
+
+ # Donations
+  If you would like to help me in this and future projects, please choose one of the options below to donate!
+ 
+#### Option 1: Liberapay
+   <noscript><a href="https://liberapay.com/edenalencar/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+
+#### Option 2: Paypal
+  [![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=BNC28Y2U9W77L)
+
  
