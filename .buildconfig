@@ -5,9 +5,11 @@ toolchain=default
 config-opts=
 run-opts=
 prefix=/home/edenalencar/Projetos/identifications/build
-app-id=
+app-id=com.github.edenalencar.identifications
 postbuild=
 prebuild=
+
+default=true
 
 [default.environment]
 LC_ALL=pt_BR.utf8

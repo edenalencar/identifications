@@ -32,7 +32,16 @@
                     "type" : "git",
                     "url" : "https://github.com/edenalencar/identifications.git"
                 }
+            ],
+            "config-opts" : [
+                "-Dprofile=development"
             ]
         }
-    ]
+    ],
+    "build-options" : {
+        "env" : {
+            "LC_ALL" : "pt_BR.utf8",
+            "GTK_DEBUG" : "interactive"
+        }
+    }
 }
