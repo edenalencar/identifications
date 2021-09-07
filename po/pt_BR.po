@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.edenalencar.identifications\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-10 20:46-0300\n"
+"POT-Creation-Date: 2021-09-05 20:07-0300\n"
 "PO-Revision-Date: 2021-05-10 20:46-0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -19,24 +19,25 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: data/com.github.edenalencar.identifications.desktop.in:3
-#: data/com.github.edenalencar.identifications.appdata.xml.in:12
+#: data/com.github.edenalencar.identifications.appdata.xml.in:11
 #: src/classes/view/menu.vala:19
 msgid "Identifications"
 msgstr "Identificações"
 
 #: data/com.github.edenalencar.identifications.desktop.in:8
-msgid "utility;identifications;work"
-msgstr "utilitário;identificações;trabalho"
+#, fuzzy
+msgid "utility;identifications;work;cpf,cnpj,inscrição estadual"
+msgstr "utilitário;identificações;trabalho;cpf,cnpj,inscrição estadual"
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:6
 msgid "Éden Alencar"
 msgstr ""
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:13
+#: data/com.github.edenalencar.identifications.appdata.xml.in:12
 msgid "It is a tool for the QA team and developers"
 msgstr "É uma ferramenta para a equipe de QA e desenvolvedores"
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:15
+#: data/com.github.edenalencar.identifications.appdata.xml.in:14
 msgid ""
 "Identifications help QA teams and developers that needed identifications "
 "used in Brazil as CPF, CNPJ and IE to test websites or system."
@@ -45,36 +46,37 @@ msgstr ""
 "desenvolvedores que precisavam de identificações usadas no Brasil como CPF, "
 "CNPJ e IE para testar sites ou sistema."
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:23
-msgid "CPF"
+#: data/com.github.edenalencar.identifications.appdata.xml.in:20
+msgid "Cadastro de Pessoa Fisica"
 msgstr ""
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:27
-msgid "CNPJ"
+#: data/com.github.edenalencar.identifications.appdata.xml.in:24
+msgid "Cadastro Nacional de Pessoal Júridica"
 msgstr ""
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:31
+#: data/com.github.edenalencar.identifications.appdata.xml.in:28
 msgid "Incrição Estadual"
 msgstr ""
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:38
-msgid "Release Identification 0.1.0 brings"
+#: data/com.github.edenalencar.identifications.appdata.xml.in:35
+#, fuzzy
+msgid "Release Identification 0.1.2 brings"
 msgstr "Identificação de versão 0.1.0 traz"
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:40
+#: data/com.github.edenalencar.identifications.appdata.xml.in:37
 msgid "Generate CPF with or without format"
 msgstr "Gerar CPF com ou sem formato"
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:41
+#: data/com.github.edenalencar.identifications.appdata.xml.in:38
 #, fuzzy
 msgid "Generate CNPJ including branches"
 msgstr "Gerar CNPJ incluindo filiais"
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:42
+#: data/com.github.edenalencar.identifications.appdata.xml.in:39
 msgid "Generate IE with or without format"
 msgstr "Gerar IE com ou sem formato"
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:43
+#: data/com.github.edenalencar.identifications.appdata.xml.in:40
 msgid "Copy all idenfications generated to clipboard"
 msgstr "Copie todas as identificações geradas para a área de transferência"
 
@@ -114,7 +116,7 @@ msgstr "Altura da janela"
 msgid "Remember the window height."
 msgstr "Lembre-se da altura da janela."
 
-#: src/ui/window.ui:170 src/ui/window.ui:314 src/ui/window.ui:506
+#: src/ui/window.ui:170 src/ui/window.ui:322 src/ui/window.ui:514
 msgid "Amount:"
 msgstr "Quantidade:"
 
@@ -122,37 +124,49 @@ msgstr "Quantidade:"
 msgid "Generate records with points and hinfens"
 msgstr "Gere registros com pontos e hifens"
 
-#: src/ui/window.ui:193 src/ui/window.ui:336 src/ui/window.ui:528
+#: src/ui/window.ui:193 src/ui/window.ui:344 src/ui/window.ui:536
 msgid "Formatted"
 msgstr "Formatado"
 
-#: src/ui/window.ui:197 src/ui/window.ui:340 src/ui/window.ui:532
+#: src/ui/window.ui:197 src/ui/window.ui:348 src/ui/window.ui:540
 msgid "Generate records with points and hifens. With ID's pattern."
 msgstr "Gere registros com pontos e hifens"
 
-#: src/ui/window.ui:217 src/ui/window.ui:374 src/ui/window.ui:551
+#: src/ui/window.ui:217 src/ui/window.ui:382 src/ui/window.ui:559
 msgid "Generate"
 msgstr "Gerar"
 
-#: src/ui/window.ui:352
+#: src/ui/window.ui:224
+msgid "Gerar"
+msgstr ""
+
+#: src/ui/window.ui:225
+msgid "accelerator-label"
+msgstr ""
+
+#: src/ui/window.ui:360
 msgid "Branches"
 msgstr "Filiais"
 
-#: src/ui/window.ui:472
+#: src/ui/window.ui:480
 msgid "State:"
 msgstr "Estado:"
 
-#: src/ui/window.ui:484
+#: src/ui/window.ui:492
 msgid "Select a state"
 msgstr "Selecione um estado"
 
-#: src/ui/window.ui:617
+#: src/ui/window.ui:625
 msgid "If checked generates CNPJ and its branches"
 msgstr "Se marcado gerar CPNJ e suas filiais"
 
 #: src/ui/menu.ui:6
 msgid "About"
 msgstr "Sobre"
+
+#: src/ui/menu.ui:10
+msgid "Help"
+msgstr "Ajuda"
 
 #: src/classes/view/menu.vala:20
 msgid ""

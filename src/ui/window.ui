@@ -219,6 +219,13 @@
                         <property name="can-focus">True</property>
                         <property name="receives-default">True</property>
                         <signal name="clicked" handler="generate_cpf" swapped="no"/>
+                        <child internal-child="accessible">
+                          <object class="AtkObject">
+                            <property name="AtkObject::accessible-description" translatable="yes">Gerar</property>
+                            <property name="AtkObject::accessible-role" translatable="yes">accelerator-label</property>
+                          </object>
+                        </child>
+                        <accelerator key="g" signal="clicked" modifiers="GDK_CONTROL_MASK"/>
                         <style>
                           <class name="suggested-action"/>
                         </style>
@@ -238,6 +245,7 @@
                         <property name="use-stock">True</property>
                         <property name="always-show-image">True</property>
                         <signal name="clicked" handler="copy_to_clipboard" swapped="no"/>
+                        <accelerator key="c" signal="clicked" modifiers="GDK_CONTROL_MASK"/>
                       </object>
                       <packing>
                         <property name="expand">True</property>
