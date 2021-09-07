@@ -1,0 +1,35 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="guide"
+      id="index">
+
+  <info>
+    <title type="link" role="seealso">Identifications</title>
+    <title type="link">Identifications</title>
+    <title type="text">Identifications</title>
+
+     <revision pkgversion="3.38" version="0.1" date="2020-10-19" status="candidate"/>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <credit type="author copyright">
+      <name>Éden Alencar</name>
+      <email its:translate="no">eden.alencar@gmail.com</email>
+      <years>2021</years>
+    </credit>
+  </info>
+
+  <title>
+   <media type="image" its:translate="no"
+  	 width="48px"
+  	 height="48px"
+  	 src="figures/com.github.edenalencar.identifications.svg" />
+    Identifications
+  </title>
+  <p><app>Identifications</app> It is a tool for the QA team and developers</p>
+
+  <section id="start" style="2column">
+    <title>Getting started</title>
+  </section>
+
+</page>

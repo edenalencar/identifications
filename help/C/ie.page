@@ -1,0 +1,36 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic"
+      style="task"
+      id="ie">
+
+  <info>
+    <revision pkgversion="3.38" version="0.1" date="2020-10-19" status="candidate"/>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <link type="guide" xref="index#start"/>
+
+    <credit type="author copyright">
+      <name>Éden Alencar</name>
+      <email its:translate="no">eden.alencar@gmail.com</email>
+      <years>2021</years>
+    </credit>
+
+    <desc>How to generate a Inscrição Estadual</desc>
+
+  </info>
+
+  <title>Generate a Inscrição Estadual</title>
+
+  <p>At the end of the reading you will be able to generate just numbers of a IE or formatted one using the Brazilian states rules.</p>
+  <steps>
+   <item><p>Select <code>Inscrição Estadual</code> tab.</p></item>
+   <item><p>In the <code>Amount</code> field select the quantity do you want by clicking on the <gui style="button">-/+</gui> buttons.</p></item>
+   <item><p>Select the state do you want in the <code>State</code> field</p></item>
+   <item><p>If you need the result formatted, check the <code>Formatted</code> box</p></item>
+   <item><p>Press the <gui style="button">Generate</gui> buttom</p></item>
+   <item><p>If you need to copy the entire result, click the <gui style="button">Copy</gui> button and all the content will be available in the clipboard.</p></item>
+  </steps>
+
+</page>
