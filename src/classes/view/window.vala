@@ -1,6 +1,6 @@
 /* window.vala
  *
- * Copyright 2021 Éden Alencar
+ * Copyright 2021-2022 Éden Alencar
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -75,6 +75,7 @@ namespace Identifications {
 			MenuModel menu = (MenuModel) builder.get_object("app-menu");
 			menu_buttom.popover = new Gtk.Popover.from_model(menu_buttom, menu);
 			clipboard = Clipboard.get_for_display(app.get_active_window().get_display(),Gdk.SELECTION_CLIPBOARD);
+            startSpinButton();
 		}
 
 		[GtkCallback]
@@ -165,5 +166,11 @@ namespace Identifications {
 		        clipboard.set_text (textbuffer_result_ie.text, -1);
 	    	}
 	    }
+
+	    private void startSpinButton(){
+            spinbuttom_amount.set_value(1);
+            spingbuttom_amount_cnpj.set_value(1);
+            spingbuttom_amount_ie.set_value(1);
+        }
     }
 }
