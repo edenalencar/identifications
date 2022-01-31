@@ -30,9 +30,18 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release date="2022-01-01" version="0.2.0">
+      <description>
+        <p>Release Identifications 0.2.0 brings</p>
+        <ul>
+          <li>Added documentation help</li>
+          <li>The amount field has been changed to start with a value of 1</li>
+        </ul>
+      </description>
+    </release>
     <release date="2021-05-11" version="0.1.2">
       <description>
-        <p>Release Identification 0.1.2 brings</p>
+        <p>Release Identifications 0.1.2 brings</p>
         <ul>
           <li>Generate CPF with or without format</li>
           <li>Generate CNPJ including branches</li>
