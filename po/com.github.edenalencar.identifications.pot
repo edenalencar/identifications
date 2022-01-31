@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.edenalencar.identifications\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-05 20:07-0300\n"
+"POT-Creation-Date: 2022-01-31 18:21-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: data/com.github.edenalencar.identifications.desktop.in:3
 #: data/com.github.edenalencar.identifications.appdata.xml.in:11
-#: src/classes/view/menu.vala:19
+#: src/classes/view/menu.vala:20
 msgid "Identifications"
 msgstr ""
 
@@ -54,22 +54,34 @@ msgid "Incrição Estadual"
 msgstr ""
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:35
-msgid "Release Identification 0.1.2 brings"
+msgid "Release Identifications 0.2.0 brings"
 msgstr ""
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:37
-msgid "Generate CPF with or without format"
+msgid "Added documentation help"
 msgstr ""
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:38
+msgid "The amount field has been changed to start with a value of 1"
+msgstr ""
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:44
+msgid "Release Identifications 0.1.2 brings"
+msgstr ""
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:46
+msgid "Generate CPF with or without format"
+msgstr ""
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:47
 msgid "Generate CNPJ including branches"
 msgstr ""
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:39
+#: data/com.github.edenalencar.identifications.appdata.xml.in:48
 msgid "Generate IE with or without format"
 msgstr ""
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:40
+#: data/com.github.edenalencar.identifications.appdata.xml.in:49
 msgid "Copy all idenfications generated to clipboard"
 msgstr ""
 
@@ -159,12 +171,12 @@ msgstr ""
 msgid "Help"
 msgstr ""
 
-#: src/classes/view/menu.vala:20
+#: src/classes/view/menu.vala:21
 msgid ""
 "Tools to devs and QA Team test applications that needing identifications "
 "from Brazil"
 msgstr ""
 
-#: src/classes/view/menu.vala:25
+#: src/classes/view/menu.vala:26
 msgid "Site"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.edenalencar.identifications\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-05 20:07-0300\n"
+"POT-Creation-Date: 2022-01-31 18:21-0300\n"
 "PO-Revision-Date: 2021-05-10 20:46-0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: data/com.github.edenalencar.identifications.desktop.in:3
 #: data/com.github.edenalencar.identifications.appdata.xml.in:11
-#: src/classes/view/menu.vala:19
+#: src/classes/view/menu.vala:20
 msgid "Identifications"
 msgstr "Identificações"
 
@@ -60,23 +60,36 @@ msgstr ""
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:35
 #, fuzzy
-msgid "Release Identification 0.1.2 brings"
+msgid "Release Identifications 0.2.0 brings"
 msgstr "Identificação de versão 0.1.0 traz"
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:37
+msgid "Added documentation help"
+msgstr "Adicionado documentação de ajuda"
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:38
+msgid "The amount field has been changed to start with a value of 1"
+msgstr "O campo quantidade foi alterado para iniciar com valor 1"
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:44
+#, fuzzy
+msgid "Release Identifications 0.1.2 brings"
+msgstr "Identificação de versão 0.1.0 traz"
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:46
 msgid "Generate CPF with or without format"
 msgstr "Gerar CPF com ou sem formato"
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:38
+#: data/com.github.edenalencar.identifications.appdata.xml.in:47
 #, fuzzy
 msgid "Generate CNPJ including branches"
 msgstr "Gerar CNPJ incluindo filiais"
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:39
+#: data/com.github.edenalencar.identifications.appdata.xml.in:48
 msgid "Generate IE with or without format"
 msgstr "Gerar IE com ou sem formato"
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:40
+#: data/com.github.edenalencar.identifications.appdata.xml.in:49
 msgid "Copy all idenfications generated to clipboard"
 msgstr "Copie todas as identificações geradas para a área de transferência"
 
@@ -168,7 +181,7 @@ msgstr "Sobre"
 msgid "Help"
 msgstr "Ajuda"
 
-#: src/classes/view/menu.vala:20
+#: src/classes/view/menu.vala:21
 msgid ""
 "Tools to devs and QA Team test applications that needing identifications "
 "from Brazil"
@@ -176,6 +189,6 @@ msgstr ""
 "Ferramentas para desenvolvedores e aplicativos de teste da equipe de "
 "controle de qualidade que precisam de identificações do Brasil"
 
-#: src/classes/view/menu.vala:25
+#: src/classes/view/menu.vala:26
 msgid "Site"
 msgstr ""
