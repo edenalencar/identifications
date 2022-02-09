@@ -2,3 +2,5 @@
 *.patch
 *.swp
 _build/
+build/
+com.github.edenalencar.identifications.json~
