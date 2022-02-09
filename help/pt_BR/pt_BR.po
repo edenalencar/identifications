@@ -1,5 +1,5 @@
 #
-# Éden Alencar <eden.alencar@gmail.com>, 2021.
+# Éden Alencar <eden.alencar@gmail.com>, 2021-2022.
 #
 msgid ""
 msgstr ""

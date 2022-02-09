@@ -3,6 +3,8 @@ data/com.github.edenalencar.identifications.appdata.xml.in
 data/com.github.edenalencar.identifications.gschema.xml
 src/ui/window.ui
 src/ui/menu.ui
+src/ui/shortcuts.ui
 src/classes/view/main.vala
 src/classes/view/window.vala
 src/classes/view/menu.vala
+

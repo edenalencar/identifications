@@ -71,12 +71,12 @@ namespace Identifications {
 
 		public Window (Gtk.Application app) {
 			Object (application: app);
-			var builder = new Gtk.Builder.from_resource("/com/github/edenalencar/identifications/ui/menu.ui");
-			MenuModel menu = (MenuModel) builder.get_object("app-menu");
-			menu_buttom.popover = new Gtk.Popover.from_model(menu_buttom, menu);
-			clipboard = Clipboard.get_for_display(app.get_active_window().get_display(),Gdk.SELECTION_CLIPBOARD);
-            startSpinButton();
+		    startMenuButton();
+			startClipboard(app);
+            startAccels(app);
+            startAmount();
 		}
+
 
 		[GtkCallback]
 		public void generate_cpf(){
@@ -167,7 +167,23 @@ namespace Identifications {
 	    	}
 	    }
 
-	    private void startSpinButton(){
+
+		private void startMenuButton(){
+		    var builder = new Gtk.Builder.from_resource("/com/github/edenalencar/identifications/ui/menu.ui");
+			MenuModel menu = (MenuModel) builder.get_object("app-menu");
+			menu_buttom.popover = new Gtk.Popover.from_model(menu_buttom, menu);
+		}
+
+		private void startClipboard(Gtk.Application app){
+		    clipboard = Clipboard.get_for_display(app.get_active_window().get_display(),Gdk.SELECTION_CLIPBOARD);
+		}
+
+		private void startAccels(Gtk.Application app){
+		    app.set_accels_for_action("app.help", {"F1"});
+			app.set_accels_for_action("app.shortcuts", {"<Primary>question"});
+		}
+
+	    private void startAmount(){
             spinbuttom_amount.set_value(1);
             spingbuttom_amount_cnpj.set_value(1);
             spingbuttom_amount_ie.set_value(1);

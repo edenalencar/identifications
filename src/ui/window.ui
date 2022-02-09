@@ -221,7 +221,7 @@
                         <signal name="clicked" handler="generate_cpf" swapped="no"/>
                         <child internal-child="accessible">
                           <object class="AtkObject">
-                            <property name="AtkObject::accessible-description" translatable="yes">Gerar</property>
+                            <property name="AtkObject::accessible-description" translatable="yes">To generate</property>
                             <property name="AtkObject::accessible-role" translatable="yes">accelerator-label</property>
                           </object>
                         </child>
@@ -245,6 +245,12 @@
                         <property name="use-stock">True</property>
                         <property name="always-show-image">True</property>
                         <signal name="clicked" handler="copy_to_clipboard" swapped="no"/>
+                        <child internal-child="accessible">
+                          <object class="AtkObject">
+                            <property name="AtkObject::accessible-description" translatable="yes">Copy to clipboard</property>
+                            <property name="AtkObject::accessible-role" translatable="yes">accelerator-label</property>
+                          </object>
+                        </child>
                         <accelerator key="c" signal="clicked" modifiers="GDK_CONTROL_MASK"/>
                       </object>
                       <packing>
@@ -381,9 +387,16 @@
                       <object class="GtkButton" id="buttom_generate_cnpj">
                         <property name="label" translatable="yes">Generate</property>
                         <property name="visible">True</property>
-                        <property name="can-focus">True</property>
+                        <property name="can-focus">False</property>
                         <property name="receives-default">True</property>
                         <signal name="clicked" handler="generate_cnpj" swapped="no"/>
+                         <child internal-child="accessible">
+                          <object class="AtkObject">
+                            <property name="AtkObject::accessible-description" translatable="yes">To generate</property>
+                            <property name="AtkObject::accessible-role" translatable="yes">accelerator-label</property>
+                          </object>
+                        </child>
+                        <accelerator key="g" signal="clicked" modifiers="GDK_CONTROL_MASK"/>
                         <style>
                           <class name="suggested-action"/>
                         </style>
@@ -403,6 +416,13 @@
                         <property name="use-stock">True</property>
                         <property name="always-show-image">True</property>
                         <signal name="clicked" handler="copy_to_clipboard" swapped="no"/>
+                        <child internal-child="accessible">
+                          <object class="AtkObject">
+                            <property name="AtkObject::accessible-description" translatable="yes">Copy to clipboard</property>
+                            <property name="AtkObject::accessible-role" translatable="yes">accelerator-label</property>
+                          </object>
+                        </child>
+                        <accelerator key="c" signal="clicked" modifiers="GDK_CONTROL_MASK"/>
                       </object>
                       <packing>
                         <property name="expand">True</property>
@@ -561,6 +581,13 @@
                         <property name="can-focus">True</property>
                         <property name="receives-default">True</property>
                         <signal name="clicked" handler="generate_ie" swapped="no"/>
+                        <child internal-child="accessible">
+                          <object class="AtkObject" id="buttom_generate_ie-atkobject">
+                            <property name="AtkObject::accessible-description" translatable="yes">To generate</property>
+                            <property name="AtkObject::accessible-role" translatable="yes">accelerator-label</property>
+                          </object>
+                        </child>
+                        <accelerator key="g" signal="clicked" modifiers="GDK_CONTROL_MASK"/>
                         <style>
                           <class name="suggested-action"/>
                         </style>
@@ -580,6 +607,13 @@
                         <property name="use-stock">True</property>
                         <property name="always-show-image">True</property>
                         <signal name="clicked" handler="copy_to_clipboard" swapped="no"/>
+                        <child internal-child="accessible">
+                          <object class="AtkObject">
+                            <property name="AtkObject::accessible-description" translatable="yes">Copy to clipboard</property>
+                            <property name="AtkObject::accessible-role" translatable="yes">accelerator-label</property>
+                          </object>
+                        </child>
+                        <accelerator key="c" signal="clicked" modifiers="GDK_CONTROL_MASK"/>
                       </object>
                       <packing>
                         <property name="expand">True</property>
@@ -643,6 +677,13 @@
                 <property name="icon-name">open-menu-symbolic</property>
               </object>
             </child>
+            <child internal-child="accessible">
+              <object class="AtkObject" id="menu_buttom-atkobject">
+                <property name="AtkObject::accessible-description" translatable="yes">menu</property>
+                <property name="AtkObject::accessible-role" translatable="yes">accelerator-label</property>
+              </object>
+            </child>
+            <accelerator key="F10" signal="activate"/>
           </object>
           <packing>
             <property name="pack-type">end</property>

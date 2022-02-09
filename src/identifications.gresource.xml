@@ -3,5 +3,6 @@
   <gresource prefix="/com/github/edenalencar/identifications">
     <file>ui/window.ui</file>
     <file>ui/menu.ui</file>
+    <file>ui/shortcuts.ui</file>
   </gresource>
 </gresources>

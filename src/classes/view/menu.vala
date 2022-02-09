@@ -3,6 +3,7 @@ namespace Identifications{
     public class MenuApplication : Gtk.ApplicationWindow {
 
        private Gtk.Window window;
+       private Gtk.ShortcutsWindow shortcuts;
 
        public MenuApplication (Gtk.Application app) {
 		    add_actions(app);
@@ -35,9 +36,17 @@ namespace Identifications{
                action.activate.connect (() => {on_about();});
                app.add_action (action);
 
+
                action = new GLib.SimpleAction ("help", null);
                action.activate.connect (() => {on_help();});
                app.add_action (action);
+
+               action = new GLib.SimpleAction ("shortcuts", null);
+               action.activate.connect (() => {on_shortcuts();});
+               app.add_action (action);
+
+
+
          }
           private void on_help () {
             try {
@@ -47,6 +56,17 @@ namespace Identifications{
             } catch (GLib.Error error) {
                 warning ("Failed to display help: %s", error.message);
             }
+        }
+
+        private void on_shortcuts(){
+            var builder = new Gtk.Builder.from_resource("/com/github/edenalencar/identifications/ui/shortcuts.ui");
+
+            shortcuts = (Gtk.ShortcutsWindow) builder.get_object("shortcuts-identifications");
+            shortcuts.set_transient_for(window);
+            shortcuts.destroy.connect((w) => {
+			    shortcuts.close();
+		        });
+            shortcuts.present();
         }
     }
 }

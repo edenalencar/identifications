@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.edenalencar.identifications\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-31 18:21-0300\n"
+"POT-Creation-Date: 2022-02-09 20:03-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: data/com.github.edenalencar.identifications.desktop.in:3
 #: data/com.github.edenalencar.identifications.appdata.xml.in:11
-#: src/classes/view/menu.vala:20
+#: src/classes/view/menu.vala:21
 msgid "Identifications"
 msgstr ""
 
@@ -119,7 +119,7 @@ msgstr ""
 msgid "Remember the window height."
 msgstr ""
 
-#: src/ui/window.ui:170 src/ui/window.ui:322 src/ui/window.ui:514
+#: src/ui/window.ui:170 src/ui/window.ui:328 src/ui/window.ui:534
 msgid "Amount:"
 msgstr ""
 
@@ -127,56 +127,84 @@ msgstr ""
 msgid "Generate records with points and hinfens"
 msgstr ""
 
-#: src/ui/window.ui:193 src/ui/window.ui:344 src/ui/window.ui:536
+#: src/ui/window.ui:193 src/ui/window.ui:350 src/ui/window.ui:556
 msgid "Formatted"
 msgstr ""
 
-#: src/ui/window.ui:197 src/ui/window.ui:348 src/ui/window.ui:540
+#: src/ui/window.ui:197 src/ui/window.ui:354 src/ui/window.ui:560
 msgid "Generate records with points and hifens. With ID's pattern."
 msgstr ""
 
-#: src/ui/window.ui:217 src/ui/window.ui:382 src/ui/window.ui:559
+#: src/ui/window.ui:217 src/ui/window.ui:388 src/ui/window.ui:579
 msgid "Generate"
 msgstr ""
 
-#: src/ui/window.ui:224
-msgid "Gerar"
+#: src/ui/window.ui:224 src/ui/window.ui:395 src/ui/window.ui:586
+#: src/ui/shortcuts.ui:46
+msgid "To generate"
 msgstr ""
 
-#: src/ui/window.ui:225
+#: src/ui/window.ui:225 src/ui/window.ui:251 src/ui/window.ui:396
+#: src/ui/window.ui:422 src/ui/window.ui:587 src/ui/window.ui:613
+#: src/ui/window.ui:683
 msgid "accelerator-label"
 msgstr ""
 
-#: src/ui/window.ui:360
+#: src/ui/window.ui:250 src/ui/window.ui:421 src/ui/window.ui:612
+#: src/ui/shortcuts.ui:53
+msgid "Copy to clipboard"
+msgstr ""
+
+#: src/ui/window.ui:366
 msgid "Branches"
 msgstr ""
 
-#: src/ui/window.ui:480
+#: src/ui/window.ui:500
 msgid "State:"
 msgstr ""
 
-#: src/ui/window.ui:492
+#: src/ui/window.ui:512
 msgid "Select a state"
 msgstr ""
 
-#: src/ui/window.ui:625
+#: src/ui/window.ui:659
 msgid "If checked generates CNPJ and its branches"
 msgstr ""
 
-#: src/ui/menu.ui:6
-msgid "About"
+#: src/ui/window.ui:682
+msgid "menu"
 msgstr ""
 
-#: src/ui/menu.ui:10
+#: src/ui/menu.ui:6 src/ui/shortcuts.ui:32
+msgid "Keyboard shortcuts"
+msgstr ""
+
+#: src/ui/menu.ui:10 src/ui/shortcuts.ui:25
 msgid "Help"
 msgstr ""
 
-#: src/classes/view/menu.vala:21
+#: src/ui/menu.ui:14
+msgid "About"
+msgstr ""
+
+#: src/ui/shortcuts.ui:13
+msgid "General"
+msgstr ""
+
+#: src/ui/shortcuts.ui:18
+msgid "Open menu window"
+msgstr ""
+
+#: src/ui/shortcuts.ui:41
+msgid "To generate identifications"
+msgstr ""
+
+#: src/classes/view/menu.vala:22
 msgid ""
 "Tools to devs and QA Team test applications that needing identifications "
 "from Brazil"
 msgstr ""
 
-#: src/classes/view/menu.vala:26
+#: src/classes/view/menu.vala:27
 msgid "Site"
 msgstr ""
