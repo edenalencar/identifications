@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.edenalencar.identifications\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-09 20:03-0300\n"
+"POT-Creation-Date: 2022-02-09 20:54-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,34 +54,42 @@ msgid "Incrição Estadual"
 msgstr ""
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:35
-msgid "Release Identifications 0.2.0 brings"
+msgid "Release Identifications 0.3.0 brings"
 msgstr ""
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:37
+msgid "Added Shortcus"
+msgstr ""
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:43
+msgid "Release Identifications 0.2.0 brings"
+msgstr ""
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:45
 msgid "Added documentation help"
 msgstr ""
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:38
+#: data/com.github.edenalencar.identifications.appdata.xml.in:46
 msgid "The amount field has been changed to start with a value of 1"
 msgstr ""
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:44
+#: data/com.github.edenalencar.identifications.appdata.xml.in:52
 msgid "Release Identifications 0.1.2 brings"
 msgstr ""
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:46
+#: data/com.github.edenalencar.identifications.appdata.xml.in:54
 msgid "Generate CPF with or without format"
 msgstr ""
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:47
+#: data/com.github.edenalencar.identifications.appdata.xml.in:55
 msgid "Generate CNPJ including branches"
 msgstr ""
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:48
+#: data/com.github.edenalencar.identifications.appdata.xml.in:56
 msgid "Generate IE with or without format"
 msgstr ""
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:49
+#: data/com.github.edenalencar.identifications.appdata.xml.in:57
 msgid "Copy all idenfications generated to clipboard"
 msgstr ""
 
@@ -140,7 +148,7 @@ msgid "Generate"
 msgstr ""
 
 #: src/ui/window.ui:224 src/ui/window.ui:395 src/ui/window.ui:586
-#: src/ui/shortcuts.ui:46
+#: src/ui/shortcuts.ui:45
 msgid "To generate"
 msgstr ""
 
@@ -151,7 +159,7 @@ msgid "accelerator-label"
 msgstr ""
 
 #: src/ui/window.ui:250 src/ui/window.ui:421 src/ui/window.ui:612
-#: src/ui/shortcuts.ui:53
+#: src/ui/shortcuts.ui:52
 msgid "Copy to clipboard"
 msgstr ""
 
@@ -195,7 +203,7 @@ msgstr ""
 msgid "Open menu window"
 msgstr ""
 
-#: src/ui/shortcuts.ui:41
+#: src/ui/shortcuts.ui:40
 msgid "To generate identifications"
 msgstr ""
 

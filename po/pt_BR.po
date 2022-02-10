@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.edenalencar.identifications\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-09 20:03-0300\n"
+"POT-Creation-Date: 2022-02-09 20:54-0300\n"
 "PO-Revision-Date: 2021-05-10 20:46-0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -25,7 +25,6 @@ msgid "Identifications"
 msgstr "Identificações"
 
 #: data/com.github.edenalencar.identifications.desktop.in:8
-#, fuzzy
 msgid "utility;identifications;work;cpf,cnpj,inscrição estadual"
 msgstr "utilitário;identificações;trabalho;cpf,cnpj,inscrição estadual"
 
@@ -59,37 +58,42 @@ msgid "Incrição Estadual"
 msgstr ""
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:35
-#, fuzzy
+msgid "Release Identifications 0.3.0 brings"
+msgstr "Identificação de versão 0.3.0 traz"
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:37
+msgid "Added Shortcus"
+msgstr "Atalhos do teclado"
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:43
 msgid "Release Identifications 0.2.0 brings"
 msgstr "Identificação de versão 0.2.0 traz"
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:37
+#: data/com.github.edenalencar.identifications.appdata.xml.in:45
 msgid "Added documentation help"
 msgstr "Adicionado documentação de ajuda"
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:38
+#: data/com.github.edenalencar.identifications.appdata.xml.in:46
 msgid "The amount field has been changed to start with a value of 1"
 msgstr "O campo quantidade foi alterado para iniciar com valor 1"
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:44
-#, fuzzy
+#: data/com.github.edenalencar.identifications.appdata.xml.in:52
 msgid "Release Identifications 0.1.2 brings"
 msgstr "Identificação de versão 0.1.2 traz"
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:46
+#: data/com.github.edenalencar.identifications.appdata.xml.in:54
 msgid "Generate CPF with or without format"
 msgstr "Gerar CPF com ou sem formato"
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:47
-#, fuzzy
+#: data/com.github.edenalencar.identifications.appdata.xml.in:55
 msgid "Generate CNPJ including branches"
 msgstr "Gerar CNPJ incluindo filiais"
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:48
+#: data/com.github.edenalencar.identifications.appdata.xml.in:56
 msgid "Generate IE with or without format"
 msgstr "Gerar IE com ou sem formato"
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:49
+#: data/com.github.edenalencar.identifications.appdata.xml.in:57
 msgid "Copy all idenfications generated to clipboard"
 msgstr "Copie todas as identificações geradas para a área de transferência"
 
@@ -150,7 +154,7 @@ msgid "Generate"
 msgstr "Gerar"
 
 #: src/ui/window.ui:224 src/ui/window.ui:395 src/ui/window.ui:586
-#: src/ui/shortcuts.ui:46
+#: src/ui/shortcuts.ui:45
 msgid "To generate"
 msgstr "Gerar"
 
@@ -161,7 +165,7 @@ msgid "accelerator-label"
 msgstr ""
 
 #: src/ui/window.ui:250 src/ui/window.ui:421 src/ui/window.ui:612
-#: src/ui/shortcuts.ui:53
+#: src/ui/shortcuts.ui:52
 msgid "Copy to clipboard"
 msgstr "Copiar para área de transfêrencia"
 
@@ -205,7 +209,7 @@ msgstr "Geral"
 msgid "Open menu window"
 msgstr "Abrir menu janela"
 
-#: src/ui/shortcuts.ui:41
+#: src/ui/shortcuts.ui:40
 msgid "To generate identifications"
 msgstr "Gerar identificações"
 

@@ -30,6 +30,14 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release date="2022-02-09" version="0.3.0">
+      <description>
+        <p>Release Identifications 0.3.0 brings</p>
+        <ul>
+          <li>Added Shortcus</li>
+        </ul>
+      </description>
+    </release>
     <release date="2022-01-01" version="0.2.0">
       <description>
         <p>Release Identifications 0.2.0 brings</p>
