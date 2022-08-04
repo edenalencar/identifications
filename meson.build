@@ -1,6 +1,6 @@
 project('com.github.edenalencar.identifications', ['c', 'vala'],
           version: '0.3.1',
-    meson_version: '>= 0.59.4',
+    meson_version: '>= 0.56.2',
   default_options: [ 'warning_level=2',
                    ],
 )
