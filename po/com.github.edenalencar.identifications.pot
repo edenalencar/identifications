@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.edenalencar.identifications\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-09 20:54-0300\n"
+"POT-Creation-Date: 2022-08-04 14:51-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,42 +54,50 @@ msgid "Incrição Estadual"
 msgstr ""
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:35
-msgid "Release Identifications 0.3.0 brings"
+msgid "Release Identifications 0.3.1 brings"
 msgstr ""
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:37
-msgid "Added Shortcus"
+msgid "Fixed security problems"
 msgstr ""
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:43
-msgid "Release Identifications 0.2.0 brings"
+msgid "Release Identifications 0.3.0 brings"
 msgstr ""
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:45
+msgid "Added Shortcus"
+msgstr ""
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:51
+msgid "Release Identifications 0.2.0 brings"
+msgstr ""
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:53
 msgid "Added documentation help"
 msgstr ""
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:46
+#: data/com.github.edenalencar.identifications.appdata.xml.in:54
 msgid "The amount field has been changed to start with a value of 1"
 msgstr ""
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:52
+#: data/com.github.edenalencar.identifications.appdata.xml.in:60
 msgid "Release Identifications 0.1.2 brings"
 msgstr ""
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:54
+#: data/com.github.edenalencar.identifications.appdata.xml.in:62
 msgid "Generate CPF with or without format"
 msgstr ""
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:55
+#: data/com.github.edenalencar.identifications.appdata.xml.in:63
 msgid "Generate CNPJ including branches"
 msgstr ""
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:56
+#: data/com.github.edenalencar.identifications.appdata.xml.in:64
 msgid "Generate IE with or without format"
 msgstr ""
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:57
+#: data/com.github.edenalencar.identifications.appdata.xml.in:65
 msgid "Copy all idenfications generated to clipboard"
 msgstr ""
 

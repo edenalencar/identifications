@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.edenalencar.identifications\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-09 20:54-0300\n"
+"POT-Creation-Date: 2022-08-04 14:51-0300\n"
 "PO-Revision-Date: 2021-05-10 20:46-0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -42,8 +42,8 @@ msgid ""
 "used in Brazil as CPF, CNPJ and IE to test websites or system."
 msgstr ""
 "As identificações ajudam as equipes de controle de qualidade e "
-"desenvolvedores que precisavam de identificações usadas no Brasil como CPF, "
-"CNPJ e IE para testar sites ou sistema."
+"desenvolvedores que precisam de identificações usadas no Brasil como CPF, "
+"CNPJ e IE para testar seus sistemas."
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:20
 msgid "Cadastro de Pessoa Fisica"
@@ -58,42 +58,51 @@ msgid "Incrição Estadual"
 msgstr ""
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:35
-msgid "Release Identifications 0.3.0 brings"
-msgstr "Identificação de versão 0.3.0 traz"
+#, fuzzy
+msgid "Release Identifications 0.3.1 brings"
+msgstr "Lançamento da versão 0.3.1 traz"
 
 #: data/com.github.edenalencar.identifications.appdata.xml.in:37
+msgid "Fixed security problems"
+msgstr "Problemas de segurança corrigidos"
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:43
+msgid "Release Identifications 0.3.0 brings"
+msgstr "Lançamento da versão 0.3.0 traz"
+
+#: data/com.github.edenalencar.identifications.appdata.xml.in:45
 msgid "Added Shortcus"
 msgstr "Atalhos do teclado"
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:43
+#: data/com.github.edenalencar.identifications.appdata.xml.in:51
 msgid "Release Identifications 0.2.0 brings"
-msgstr "Identificação de versão 0.2.0 traz"
+msgstr "Lançamento da versão 0.2.0 traz"
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:45
+#: data/com.github.edenalencar.identifications.appdata.xml.in:53
 msgid "Added documentation help"
 msgstr "Adicionado documentação de ajuda"
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:46
+#: data/com.github.edenalencar.identifications.appdata.xml.in:54
 msgid "The amount field has been changed to start with a value of 1"
 msgstr "O campo quantidade foi alterado para iniciar com valor 1"
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:52
+#: data/com.github.edenalencar.identifications.appdata.xml.in:60
 msgid "Release Identifications 0.1.2 brings"
-msgstr "Identificação de versão 0.1.2 traz"
+msgstr "Lançamento da versão 0.1.2 traz"
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:54
+#: data/com.github.edenalencar.identifications.appdata.xml.in:62
 msgid "Generate CPF with or without format"
 msgstr "Gerar CPF com ou sem formato"
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:55
+#: data/com.github.edenalencar.identifications.appdata.xml.in:63
 msgid "Generate CNPJ including branches"
 msgstr "Gerar CNPJ incluindo filiais"
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:56
+#: data/com.github.edenalencar.identifications.appdata.xml.in:64
 msgid "Generate IE with or without format"
 msgstr "Gerar IE com ou sem formato"
 
-#: data/com.github.edenalencar.identifications.appdata.xml.in:57
+#: data/com.github.edenalencar.identifications.appdata.xml.in:65
 msgid "Copy all idenfications generated to clipboard"
 msgstr "Copie todas as identificações geradas para a área de transferência"
 
@@ -183,7 +192,7 @@ msgstr "Selecione um estado"
 
 #: src/ui/window.ui:659
 msgid "If checked generates CNPJ and its branches"
-msgstr "Se marcado gerar CPNJ e suas filiais"
+msgstr "Se marcado gera CPNJ e suas filiais"
 
 #: src/ui/window.ui:682
 msgid "menu"
