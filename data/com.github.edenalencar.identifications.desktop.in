@@ -4,6 +4,6 @@ Exec=identifications
 Terminal=false
 Type=Application
 Categories=GNOME;GTK;Utility
-Keywords=utility;identifications;work;cpf,cnpj,inscrição estadual
+Keywords=utility;identifications;work;cpf;cnpj;inscrição estadual
 StartupNotify=true
 Icon=com.github.edenalencar.identifications
